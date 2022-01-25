@@ -17,7 +17,8 @@ p {
 }
 
 header{background-color: #2A2A2A;
-  position: relative;}
+  position: relative;
+box-shadow: 0px 3px 8px 0px rgba(0,0,0,.5);}
 
   header > div
 {
@@ -25,7 +26,7 @@ header{background-color: #2A2A2A;
   display: flex;
 justify-content: space-between;
 color: white;
-margin: auto;}
+margin: 0 auto;}
 
 header img {margin: 16px 0px ;}
 
@@ -38,23 +39,31 @@ header nav a {
   font-size: 14px;
   font-weight: 600;
   padding: 7px 15px;
-  border-radius: 2px;}
+  border-radius: 2px;
+transition:all .3s;}
 
   header nav a:last-of-type
   {color:#FDB530;}
 
+  header nav a:hover{color:white;}
+
+header nav a.active{background-color:#107698;
+colour:white;}
+
   #pagename
-  {height: 50px
+  {height: 50px;
   background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
-text-align:center;
-padding:80px 0px;
+;
+padding:70px 0px;
 background-position: center;
 background-repeat: no-repeat;}
 
 h1
 {font-size:50px;
-colour: white;
-font weight:300;
+color:white;
+font-weight:300;
+text-align:center;
+text-shadow: 1px 2px 2px black;
 }
 
 section.MissionStatement
@@ -63,34 +72,145 @@ section.MissionStatement
   padding: 54px 0;
 }
 
-section.MissionStatement h2{font-size: 34px;
+Section.servicesblockstyle
+{
+  background-color: #EDEff3;
+}
+
+section.MissionStatement h2
+{font-size: 34px;
 text-align: center;
 font-weight: 300;
 color: #0a465b;
 margin-bottom: 32px;
 }
 
-section.MissionStatement>p{text-align: center
-  font-size:18px;
+span.highlight {
+  color: Orange;
+}
+
+section.MissionStatement>p
+{text-align: center;
+font-size: 18px;
 width: 900px;
 margin:auto;}
 
-Section.services
-{
-  background-color: #EDEff3;
+section.servicesblockstyle div.ourServices
+{display:flex;
+flex-flow:row;
+justify-content:center;
+gap:32px;
+margin-top:48px;}
+
+section#b div.flexibility {
+  gap: 80px;
 }
 
-section.services h2
+section.servicesblockstyle article
+{width: 260px;
+    box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section#b article {
+  width: 320px;
+}
+
+section.servicesnakedstyle div.flexibility
+{Display:flex;
+flex-flow: row wrap;
+gap:32px;
+margin-top: 48px;
+width:1150px;
+justify-content:center;
+margin:48px 0;}
+
+section.servicesnakedStyle article {
+  width: 350px;
+  margin-bottom: 32px;
+}
+
+section.servicesnakedstyle article h3
+{font-size: 16px;
+  color: #0a465b;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: .5px;
+  border-bottom: 2px solid #FDB530;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  width: 80%;
+  margin-right: auto;
+    margin-left: auto;}
+
+    section.servicesnakedstyle article p{text-align:center;
+    }
+
+
+
+
+
+
+section.servicesblockstyle h2
 {
   font-size: 34px;
   font-weight: 300;
   color: #0a465b;
   text-align: center;
-  margin-bottom: 32px;
+  margin:32px;
 }
 
-section.services>p
+section.servicesblockstyle>p
 {text-align: center
   font-size:18px;
 width: 900px;
-margin:auto;}
+margin:auto;
+padding:10px;
+}
+
+
+
+
+
+section.servicesblockstyle article h3
+{background-color:#107698;
+font-size: 30px;
+text-transform: uppercase;
+text-align: center;
+color: white;
+margin:10px;
+padding:0px 16px;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+font-weight: 300;}
+
+section.servicesblockStyle article p {
+  border-top: 5px solid #d1d1d0;
+  padding: 24px 20px;
+  box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+}
+
+
+
+
+/*section#b div.Flexibility {
+  gap: 80px;
+}
+
+section#b article
+{width:320px;}
+
+section.bdiv.Flexibility {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 48px;
+  width: 1150px;
+  margin: 48px auto 0;
+}*/
