@@ -1,0 +1,96 @@
+/* ====== Colors ======
+  Drak Grey: #2A2A2A
+  Blue: #107698
+  Orange: #FDB530
+  Heading Color: #0a465b
+  Para Text: #7f969e
+*/
+
+body
+{font-family: 'source sans pro';
+font-weight: 400;
+font-size: 16px;}
+
+p {
+ line-height: 1.4;
+ color: #7f969e;
+}
+
+header{background-color: #2A2A2A;
+  position: relative;}
+
+  header > div
+{
+  width: 1200px;
+  display: flex;
+justify-content: space-between;
+color: white;
+margin: auto;}
+
+header img {margin: 16px 0px ;}
+
+header nav {display:flex;
+align-items: center;}
+
+header nav a {
+  text-transform: uppercase;
+  color: #d4d4d4;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px 15px;
+  border-radius: 2px;}
+
+  header nav a:last-of-type
+  {color:#FDB530;}
+
+  #pagename
+  {height: 50px
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+text-align:center;
+padding:80px 0px;
+background-position: center;
+background-repeat: no-repeat;}
+
+h1
+{font-size:50px;
+colour: white;
+font weight:300;
+}
+
+section.MissionStatement
+{
+  background-color: white;
+  padding: 54px 0;
+}
+
+section.MissionStatement h2{font-size: 34px;
+text-align: center;
+font-weight: 300;
+color: #0a465b;
+margin-bottom: 32px;
+}
+
+section.MissionStatement>p{text-align: center
+  font-size:18px;
+width: 900px;
+margin:auto;}
+
+Section.services
+{
+  background-color: #EDEff3;
+}
+
+section.services h2
+{
+  font-size: 34px;
+  font-weight: 300;
+  color: #0a465b;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.services>p
+{text-align: center
+  font-size:18px;
+width: 900px;
+margin:auto;}
