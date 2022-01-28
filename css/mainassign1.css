@@ -118,6 +118,8 @@ section#b article {
   width: 320px;
 }
 
+
+
 section.servicesnakedstyle div.flexibility
 {Display:flex;
 flex-flow: row wrap;
@@ -128,7 +130,7 @@ justify-content:center;
 margin:48px 0;}
 
 section.servicesnakedStyle article {
-  width: 350px;
+  width: 300px;
   margin-bottom: 32px;
 }
 
@@ -150,6 +152,68 @@ section.servicesnakedstyle article h3
     section.servicesnakedstyle article p{text-align:center;
     }
 
+#contactus section
+{display: flex;
+width:600px;
+margin:auto;
+}
+
+#contactus section.left img
+{border-radius: 50%
+Border:8px;
+margin-bottom:16px;
+}
+
+#contactus section div:first-of-type > div
+{color:grey;
+border:1px;
+padding:8px 24px;
+font-size:18px;}
+
+#contactus input
+{color:white;
+font-size: 18px;
+padding:12px 24px;
+width:200px;
+border-radius:6px;
+border:2px solid Orange;}
+
+#contactus a
+{display:inline-block;
+border:5px grey;
+position:relative;
+margin:12px;}
+
+#getInTouch section > div:last-of-type {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.seperator
+{width:2px;
+height: 200px;
+background-color:Grey;}
+
+.separator2
+{width: inherit;
+height: 4px;
+background-color:grey;
+}
+
+#last img {
+  display: block;
+  margin: 24px auto 0;
+}
+
+footer
+{
+  padding: 40px 0;
+  background-color: #504f4f;
+  text-align: center;
+  color: #c7c5c5;
+  font-size: 18px;
+    line-height: 1.4;}
 
 
 
