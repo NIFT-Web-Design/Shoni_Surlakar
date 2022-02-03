@@ -6,21 +6,24 @@
   Para Text: #7f969e
 */
 
+/*body(entire)===================================================*/
 body
 {font-family: 'source sans pro';
 font-weight: 400;
 font-size: 16px;}
 
 p {
- line-height: 1.4;
+ line-height: 1;
  color: #7f969e;
 }
 
 header{background-color: #2A2A2A;
   position: relative;
-box-shadow: 0px 3px 8px 0px rgba(0,0,0,.5);}
+box-shadow:box-shadow: -1px 9px 20px -1px rgba(103,104,105,0.75);
+-webkit-box-shadow: -1px 9px 20px -1px rgba(103,104,105,0.75);
+-moz-box-shadow: -1px 9px 20px -1px rgba(103,104,105,0.75);;}
 
-  header > div
+ header > div
 {
   width: 1200px;
   display: flex;
