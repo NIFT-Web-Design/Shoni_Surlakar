@@ -1,0 +1,473 @@
+/* ====== Colors ======
+  Drak Grey: #2A2A2A
+  Blue: #107698
+  Orange: #FDB530
+  Heading Color: #0a465b
+  Para Text: #7f969e
+*/
+
+/*body(entire)===================================================*/
+body
+{font-family: 'source sans pro';
+font-weight: 400;
+font-size: 16px;}
+
+p {
+ line-height: 1.4;
+ color: #7f969e;
+}
+
+/*navigation=====================================================*/
+
+header{background-color: #2A2A2A;
+  position: relative;
+box-shadow:box-shadow: -1px 9px 20px -1px rgba(103,104,105,0.75);
+-webkit-box-shadow: -1px 9px 20px -1px rgba(103,104,105,0.75);
+-moz-box-shadow: -1px 9px 20px -1px rgba(103,104,105,0.75);
+display:flex;
+align-items: center;
+padding:0 160px;
+grid-gap: 40px;
+height:88px;
+justify-content: space-between;}
+
+header > div
+{
+  width: 1200px;
+  display: flex;
+justify-content: space-between;
+color: white;
+margin: 0 auto;
+}
+
+header img {margin: 16px 0px ;}
+
+nav {display:flex;
+align-items: center;
+justify-content: flex-end;}
+
+ nav a {
+  text-transform: uppercase;
+  color: #d4d4d4;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px 15px;
+  border-radius: 2px;
+transition:all .3s;
+text-decoration: none;}
+
+  header nav a:last-of-type
+  {color:#FDB530;}
+
+  header nav a:hover{color:white;}
+
+header nav a.active{background-color:#107698;
+colour:white;}
+
+/*pagename==========================================================*/
+  #pagename
+  {height: 50px;
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+padding:70px 0px;
+background-position: center;
+background-repeat: no-repeat;}
+
+h1
+{font-size:50px;
+color:white;
+font-weight:300;
+text-align:center;
+justify-content: center;
+text-shadow: 1px 2px 2px black;
+}
+
+/*1st section===========================================================*/
+section.MissionStatement
+{
+  background-color: white;
+  padding: 54px 0;
+}
+
+ h2
+{font-size: 34px;
+text-align: center;
+font-weight: 300;
+color: #0a465b;
+margin-bottom: 24px;
+padding: 8px;
+}
+
+/*highlighted parts for the page===================================*/
+span.highlight {
+  color: Orange;
+}
+
+section.MissionStatement>p
+{text-align: center;
+font-size: 18px;
+width: 900px;
+margin:auto;
+line-height:1.4;}
+
+/*second section============================================================*/
+Section.services
+{background-color: #EDEff3;
+padding: 54px 0;}
+
+section.services>p
+{  width: 900px;
+  text-align: center;
+  font-size: 18px;
+  width: 900px;
+  margin:auto;
+  line-height:1.4;}
+
+section.services div.AVarietyofServices
+{display:flex;
+flex-direction: row;
+justify-content:center;
+gap:32px;
+margin-top:48px;}
+
+section.services article
+{display:block;
+width: 260px;
+box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
+text-align: center;
+background-color: white;
+}
+
+section.services h3
+{font-size: 30px;
+padding: 25px 20px 25px;
+background-color: #107698;;
+justify-content: center;
+text-align: center;
+color:white;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+font-weight:300;
+margin-top:0px;
+font-variant: small-caps;}
+
+section.services article Div.Seperator
+{width: 100%;
+background-color: #d1d1d0;
+height: 5px;
+-webkit-box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+position: relative;}
+
+section.services article>p
+{padding: 20px 25px;
+font-size: 16px;
+display: inline-block;
+line-height: 1.4;
+text-align:left;}
+
+/*third section===============================================================*/
+  section.NoGrey
+{background-color: white;
+padding:54px;}
+
+section.NoGrey>p
+{text-align: center;
+font-size: 18px;
+width: 900px;
+margin:auto;
+line-height:1.4;
+padding-bottom: 16px;}
+
+div.NoBG
+{Display:flex;
+flex-flow:wrap;
+gap:40px;
+margin-top: 48px;
+width:1150px;
+justify-content:center;
+align-items: baseline;
+padding-left: 128px;
+padding-right: 50px;
+}
+
+section.NoGrey article
+{
+  width: 300px;
+  margin-bottom: 32px;
+}
+
+section.NoGrey article h3
+{font-size: 16px;
+  color: #0a465b;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: .5px;
+  border-bottom: 2px solid #FDB530;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  width: 80%;
+  margin-right: auto;
+    margin-left: auto;}
+
+Section.NoGrey article p
+{text-align: center;}
+
+/*fourth section===============================================================*/
+div.flexibility
+{display:flex;
+flex-direction: row;
+justify-content: center;
+width:1200px;
+padding-left: 144px;
+
+}
+
+div.flexibility article
+{display: block;
+margin: 30px auto;
+width: 320px;
+height: auto;}
+
+/*Getintouch==================================================================*/
+section.contactUs
+{display: flex;
+width:600px;
+margin:auto;
+}
+#contactUs section.left img
+{border-radius: 50%
+Border:8px;
+margin-bottom:16px;
+}
+
+#contactUs section div:first-of-type > div
+{color:grey;
+border:1px;
+padding:8px 24px;
+font-size:18px;}
+
+#contactUs input
+{color:white;
+font-size: 18px;
+padding:12px 24px;
+width:200px;
+border-radius:6px;
+border:2px solid Orange;}
+
+#contactUs a
+{display:inline-block;
+border:5px grey;
+position:relative;
+margin:12px;}
+
+#contactUs section > div:last-of-type {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.seperator2
+{width:2px;
+height: 200px;
+background-color:Grey;}
+
+.separator3
+{width: inherit;
+height: 4px;
+background-color:grey;
+}
+
+
+/*trustedby--===========================================================*/
+#final
+{background-color: #EDEff3;
+padding: 54px 0;}
+
+
+#final img {
+    display: block;
+    margin: 24px auto 0;
+  align-items: center;}
+
+
+/*footer=====================================================*/
+footer
+{padding: 40px 0;
+  background-color: #504f4f;
+  text-align: center;
+  color: #c7c5c5;
+  font-size: 18px;
+    line-height: 1.4;}
+
+/*section#b div.flexibility {
+  gap: 80px;
+}
+
+
+
+section#b article {
+  width: 320px;
+}
+
+
+
+section.servicesnakedstyle div.flexibility
+{Display:flex;
+flex-flow: row wrap;
+gap:32px;
+margin-top: 48px;
+width:1150px;
+justify-content:center;
+margin:48px 0;}
+
+section.servicesnakedStyle article {
+  width: 300px;
+  margin-bottom: 32px;
+}
+
+section.servicesnakedstyle article h3
+{font-size: 16px;
+  color: #0a465b;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: .5px;
+  border-bottom: 2px solid #FDB530;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  width: 80%;
+  margin-right: auto;
+    margin-left: auto;}
+
+    section.servicesnakedstyle article p{text-align:center;
+    }
+
+#contactus section
+{display: flex;
+width:600px;
+margin:auto;
+}
+
+#contactus section.left img
+{border-radius: 50%
+Border:8px;
+margin-bottom:16px;
+}
+
+#contactus section div:first-of-type > div
+{color:grey;
+border:1px;
+padding:8px 24px;
+font-size:18px;}
+
+#contactus input
+{color:white;
+font-size: 18px;
+padding:12px 24px;
+width:200px;
+border-radius:6px;
+border:2px solid Orange;}
+
+#contactus a
+{display:inline-block;
+border:5px grey;
+position:relative;
+margin:12px;}
+
+#getInTouch section > div:last-of-type {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.seperator
+{width:2px;
+height: 200px;
+background-color:Grey;}
+
+.separator2
+{width: inherit;
+height: 4px;
+background-color:grey;
+}
+
+#last img {
+  display: block;
+  margin: 24px auto 0;
+}
+
+footer
+{
+  padding: 40px 0;
+  background-color: #504f4f;
+  text-align: center;
+  color: #c7c5c5;
+  font-size: 18px;
+    line-height: 1.4;}
+
+
+
+
+
+section.servicesblockstyle h2
+{
+  font-size: 34px;
+  font-weight: 300;
+  color: #0a465b;
+  text-align: center;
+  margin:32px;
+}
+
+section.servicesblockstyle>p
+{text-align: center
+  font-size:18px;
+width: 900px;
+margin:auto;
+padding:10px;
+}
+
+
+
+
+
+section.servicesblockstyle article h3
+{background-color:#107698;
+font-size: 30px;
+text-transform: uppercase;
+text-align: center;
+color: white;
+margin:10px;
+padding:0px 16px;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+font-weight: 300;}
+
+section.servicesblockStyle article p {
+  border-top: 5px solid #d1d1d0;
+  padding: 24px 20px;
+  box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+}
+
+
+
+
+/*section#b div.Flexibility {
+  gap: 80px;
+}
+
+section#b article
+{width:320px;}
+
+section.bdiv.Flexibility {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 48px;
+  width: 1150px;
+  margin: 48px auto 0;
+}*/
