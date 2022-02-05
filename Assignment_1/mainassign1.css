@@ -231,49 +231,66 @@ width: 320px;
 height: auto;}
 
 /*Getintouch==================================================================*/
-section.contactUs
+section.getInTouch
 {display: flex;
+  flex-flow: column;
 width:600px;
 margin:auto;
 }
-#contactUs section.left img
-{border-radius: 50%
-Border:8px;
+
+#flex
+{display: flex;
+flex-flow: row;
+justify-content: space-between;}
+
+#flex div.leftSide
+{display:flex;
+  flex-flow: column;
+justify-content:space-between;}
+
+#flex div.leftSide img
+{
+border-radius:50%;
+Border:8px solid Orange;
 margin-bottom:16px;
 }
 
-#contactUs section div:first-of-type > div
+#flex div.leftSide div
 {color:grey;
 border:1px;
 padding:8px 24px;
-font-size:18px;}
+font-size:18px;
+border-top:1px;
+border-bottom: 1px;
+border-color:#107698; }
 
-#contactUs input
+#flex input
 {color:white;
 font-size: 18px;
 padding:12px 24px;
 width:200px;
 border-radius:6px;
-border:2px solid Orange;}
+border:2px solid Orange;
+background-color: #107698;}
 
-#contactUs a
+#flex a
 {display:inline-block;
 border:5px grey;
 position:relative;
 margin:12px;}
 
-#contactUs section > div:last-of-type {
+#flex section > div:last-of-type {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 
-.seperator2
+#flex  div.seperator2
 {width:2px;
 height: 200px;
 background-color:Grey;}
 
-.separator3
+#flex div.separator3
 {width: inherit;
 height: 4px;
 background-color:grey;
