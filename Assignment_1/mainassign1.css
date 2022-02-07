@@ -262,7 +262,7 @@ padding:8px 24px;
 font-size:18px;
 border-top:1px;
 border-bottom: 1px;
-border-color:#107698; }
+border-color:#107698;}
 
 #flex input
 {color:white;
@@ -285,16 +285,21 @@ margin:12px;}
   align-items: center;
 }
 
-#flex  div.seperator2
+section.getInTouch div.seperator1
 {width:2px;
 height: 200px;
 background-color:Grey;}
 
-#flex div.separator3
+div.separator2
 {width: inherit;
 height: 4px;
 background-color:grey;
 }
+
+#flex div.rightSide
+{display: flex;
+  flex-flow:column;
+justify-content: space-between;}
 
 
 /*trustedby--===========================================================*/
