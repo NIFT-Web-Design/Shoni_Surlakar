@@ -83,7 +83,7 @@ flex-direction: column;
 justify-content: space-around;}
 
 /*====================================================article===================*/
-article
+section.content article
 {display:flex;
 flex-direction:column;
 justify-content: space-around;}
@@ -95,8 +95,11 @@ section.content article>h3
 {padding-top: 20px;
 padding-bottom: 15px;}
 
-#bulletContainer>img
-{display:block;}
+#bulletContainer
+{display:flex;}
 
-#bulletContainer>p
+article.contact > p
 {display:inline;}
+
+article.contact > div
+{font-weight: bold;}
