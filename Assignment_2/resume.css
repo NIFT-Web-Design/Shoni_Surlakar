@@ -76,8 +76,27 @@ flex-direction: column;
 justify-content: space-around;}
 
 /*right=========================================================================*/
-section.content div.left
+section.content div.right
 {max-width: 297px;
 display:flex;
 flex-direction: column;
 justify-content: space-around;}
+
+/*====================================================article===================*/
+article
+{display:flex;
+flex-direction:column;
+justify-content: space-around;}
+
+section.content article > h4
+{font-weight: bold;}
+
+section.content article>h3
+{padding-top: 20px;
+padding-bottom: 15px;}
+
+#bulletContainer>img
+{display:block;}
+
+#bulletContainer>p
+{display:inline;}
