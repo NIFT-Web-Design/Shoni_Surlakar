@@ -29,15 +29,55 @@ padding: 40px;
 /*key===========================================================================*/
 
 section.key
- {font-family:Questrial;
-   justify-content: center;
- display:flex;}
+ {
+   font-family:Questrial;
+ display:flex;
+  flex-flow: column;
+    justify-content: center;
+padding: 70px;
+}
 
    section.key h1
-   {font-size: 24 px;
-   font-weight: 100;}
+   {display: flex;
+     justify-content: center;
+     font-size: 24px;
+     text-transform: uppercase;
+   font-weight: 100;
+ }
 
    section.key h2
-{color: #A4A4A4;
+{  display: flex;
+  justify-content: center;
+  color: #A4A4A4;
 font-size:10px;
+text-transform: uppercase;
+padding-top: 5px;}
+
+/*section headers===============================================================*/
+h3
+{font-family:Questrial;
+  color: #A4A4A4;
+font-size:12px;
 text-transform: uppercase;}
+
+
+/*content=======================================================================*/
+section.content
+{display:flex;
+flex-direction: row;
+justify-content: space-around;}
+
+
+/*left==========================================================================*/
+section.content div.left
+{max-width: 297px;
+display:flex;
+flex-direction: column;
+justify-content: space-around;}
+
+/*right=========================================================================*/
+section.content div.left
+{max-width: 297px;
+display:flex;
+flex-direction: column;
+justify-content: space-around;}
