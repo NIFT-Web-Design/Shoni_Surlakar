@@ -1,0 +1,271 @@
+/* ====== Colors ======
+  Drak brown: #5B4533
+  peach: #F7DE95
+  tan: #C0A966
+  Para Text: #7f969e
+  yellow:#FAD25C
+  GREEN:687D60
+*/
+/*body(entire)===================================================*/
+body {
+  font-family: 'encode sans expanded';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p {
+  line-height: 1.4;
+  color:  #C0A966;
+}
+/*navigation==================================================*/
+header {
+  background-color: #5B4533;
+  position: relative;
+  box-shadow: box-shadow: -1px 9px 20px -1px rgba(103, 104, 105, 0.75);
+  -webkit-box-shadow: -1px 9px 20px -1px rgba(103, 104, 105, 0.75);
+  -moz-box-shadow: -1px 9px 20px -1px rgba(103, 104, 105, 0.75);
+  display: flex;
+  align-items: center;
+  padding: 0 160px;
+  grid-gap: 40px;
+  height: 80px;
+  justify-content: space-between;
+}
+
+header>div {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  color: #C0A966;
+  margin: 0 auto;
+}
+
+header img {
+  margin: 8px 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #F7DE95;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 2px;
+  transition: all .3s;
+  text-decoration: none;
+}
+
+header nav a:last-of-type {
+  color: #FAD25C;
+}
+
+header nav a:hover {
+  background-color: #687D60;
+}
+
+header nav a.active {
+  colour: white;
+}
+
+/*pagename=========================================================*/
+#pagename {
+  height: 50px;
+  background-image:url(https://i.pinimg.com/originals/8a/6f/db/8a6fdb77626d7218c4b3242c32182da9.jpg);
+  padding: 70px 0px;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+h1 {font-family:'El Messiri';
+  font-size: 50px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 1px 2px 2px black;
+}
+
+/*about=============================================================*/
+section.Aboutus {
+  background-color: white;
+  padding:54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.Aboutus article{
+  display:flex;
+flex-flow: row;
+}
+
+section.Aboutus img
+{
+  justify-content: flex-start;
+}
+
+section.Aboutus div.separator
+{
+  width: 32px;
+  background-color: #5B4533;
+  height: 50%;
+  position: relative;
+  margin-right: 16px;
+  padding-top: 136px;
+}
+
+section.Aboutus p
+{padding:136px 0px 0px 0px;
+diplay:inline block;}
+
+section.Aboutus h3
+{padding-top: 400px;
+font-weight: 600;
+color:#FAD25C;
+text-shadow: 1px 1px 1px #5B4533;}
+
+section.Aboutus h3:hover {
+  display:block;
+  color: #687D60;
+}
+
+/*speciality=======================================================*/
+
+section.speciality
+{background-color: #F7DE95;}
+
+ h2
+{font-family:'El Messiri';
+  font-size: 40px;
+  color:#C0A966;
+  font-weight: 300;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 1px 2px 2px black;
+   padding: 54px;}
+
+   section.speciality h3
+   {font-size: 24px;
+     display: block;
+     width:160px;
+     text-align: center;
+     padding-bottom: 24px;
+     text-shadow: 1px 2px 2px black;
+   font-weight: 600;
+   color:#FAD25C; }
+
+   section.speciality div
+   {display:flex;
+   justify-content: space-around;
+ padding:54px;
+padding-top: 0px;}
+
+ section.speciality article
+ {display:flex;
+ flex-flow: column;}
+
+ section.speciality article p
+ {display: block;
+   text-align: center;
+   width:160px;
+  font-size: 12px;}
+
+section.speciality article h4
+{padding-left: 24px;
+padding-top: 18px;
+font-size: 16px;
+font-weight: 600;
+color:#FAD25C;
+text-shadow: 1px 1px 1px #5B4533;}
+
+section.speciality h4:hover {
+  display:block;
+  color: #687D60;
+}
+
+
+
+ /*contactus======================================================*/
+ section.contact {
+  display: flex;
+  flex-flow: column;
+  width: 600px;
+  margin: auto;
+  padding: 54px 0;
+  background-color: #F7DE95;
+}
+
+#flex {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+#flex div.leftSide {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width:450px;
+  padding:80px 0px;
+}
+
+#flex p {
+  color:  #C0A966;
+  font-size: 16px;
+text-shadow: 1px 1px 1px #5B4533;
+
+}
+
+
+
+#flex div.separator1 {
+  width: 2px;
+  background-color: #5B4533;
+}
+
+div.separator2 {
+  width: 100%;
+  height: 4px;
+  background-color:#5B4533;
+}
+
+#flex div.rightSide {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#flex div.rightSide img {
+  Border: 8px solid #5B4533;
+  margin-bottom: 16px;
+  width: fit-content;
+}
+
+/*socials===================================================================*/
+section.social
+{display: flex;
+width:400px;
+justify-content: space-around;
+align-items: center;
+padding: 0px 525px;
+margin:54px;}
+
+section.social img:hover
+{background-color:#687D60; }
+
+/*footer===================================================================*/
+footer {
+  padding: 40px 0;
+  background-color:#5B4533;
+  text-align: center;
+  color:#F7DE95;
+  font-size: 16px;
+  line-height: 1.4;
+}
