@@ -63,6 +63,7 @@ nav a {
 
 header nav a:last-of-type {
   color: #FAD25C;
+  background-color: white;
 }
 
 header nav a:hover {
@@ -120,8 +121,10 @@ section.Aboutus div.separator
 }
 
 section.Aboutus p
-{padding:136px 0px 0px 0px;
-diplay:inline block;}
+{padding:100px 150px 0px 150px;
+diplay:inline block;
+justify-content: space-around;
+text-align: center;}
 
 section.Aboutus h3
 {padding-top: 400px;
@@ -220,7 +223,7 @@ section.speciality h4:hover {
   color:  #C0A966;
   font-size: 16px;
 text-shadow: 1px 1px 1px #5B4533;
-
+text-align: center;
 }
 
 
@@ -250,12 +253,12 @@ div.separator2 {
 }
 
 /*socials===================================================================*/
-section.social
-{display: flex;
+section.social{
+display: flex;
 width:400px;
 justify-content: space-around;
 align-items: center;
-padding: 0px 525px;
+padding: 0px 480px;
 margin:54px;}
 
 section.social img:hover{
