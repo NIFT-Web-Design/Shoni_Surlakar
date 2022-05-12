@@ -258,8 +258,9 @@ align-items: center;
 padding: 0px 525px;
 margin:54px;}
 
-section.social img:hover
-{background-color:#687D60; }
+section.social img:hover{
+  background-color:#687D60;}
+
 
 /*footer===================================================================*/
 footer {
